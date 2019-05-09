@@ -1,6 +1,6 @@
 require 'pry'
 
-#=begin
+=begin
 two_seasons = { 
   "season 30": [
     {
@@ -35,7 +35,7 @@ two_seasons = {
     }
   ]
 }
-#=end
+=end
 
 def get_first_name_of_season_winner(data, season)
   arr = data[season]
@@ -68,4 +68,4 @@ def get_average_age_for_season(data, season)
   # code here
 end
 
-get_contestant_name(two_seasons, "Entertainer")
+#get_contestant_name(two_seasons, "Entertainer")
